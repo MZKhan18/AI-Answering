@@ -8,7 +8,7 @@ import os
 
 st.title("Ai-Answering")
 
-st.caption("This is a website where you can upload questions on any topic in pdf format and it will generate answers by using Google's Bard Ai. It can only genrate answers to atmost 20 questions from one pdf.")
+st.caption("This is a website where you can upload questions on any topic in pdf format and it will generate answers by using Google's Bard Ai or Open Ai's gpt. It can only genrate answers to atmost 20 questions from one pdf.")
 types_index = ['Q) Q) {recommended}','1. 2.','1) 2)','i) ii)', 'a. b.', 'a) b)', 'A. B.', 'A) B)']
 pdf_file = st.file_uploader("Upload Pdf File *")
 indexing = st.selectbox("Enter Indexing : Q) Q) indexing is recommended ",types_index)
